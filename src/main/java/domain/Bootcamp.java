@@ -20,5 +20,4 @@ public class Bootcamp {
     private final LocalDate finalDate = initialDate.plusDays(45);
     private Set<Developer> subscribedDevelopers = new HashSet<>();
     private Set<Content> contents = new LinkedHashSet<>();
-
 }
