@@ -17,4 +17,12 @@ public class Mentorship extends Content{
     public double calculateXp() {
         return DEFAULT_XP + 20d;
     }
+
+    @Override
+    public String toString() {
+        return "Mentorship{" +
+                "title='" + getTitle() + '\'' +
+                ", description='" + getDescription() + '\'' +
+                ", date=" + date + '}';
+    }
 }

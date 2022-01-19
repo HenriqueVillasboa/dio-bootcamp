@@ -28,7 +28,7 @@ public class Developer {
             this.completedContent.add(content.get());
             this.subscribedContent.remove(content.get());
         } else {
-            System.err.println("Você não está matriculado em nenhum conteúdo!");
+            System.err.println("You are not enrolled in any content.");
         }
     }
 
